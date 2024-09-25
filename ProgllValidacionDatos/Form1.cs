@@ -21,7 +21,7 @@ namespace ProgllValidacionDatos
             string patente = txtPatente.Text;
             string cuil = txtCuil.Text;
 
-            // Verificar si los TextBoxes están vacíos antes de validar
+           
             if (string.IsNullOrWhiteSpace(patente))
             {
                 lblResultado.Text = "Por favor, ingrese una patente.";
